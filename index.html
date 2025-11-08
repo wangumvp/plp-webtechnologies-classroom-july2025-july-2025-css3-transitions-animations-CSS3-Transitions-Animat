@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liz Animated Box Playground</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Animated Box Playground</h1>
+  </header>
+
+  <main>
+    <!-- Part 1: CSS Transitions & Animations -->
+    <section id="cssAnimations">
+      <h2>Hover the Button!</h2>
+      <button class="animateBtn">Hover Me</button>
+    </section>
+
+    <!-- Part 2: JavaScript Functions -->
+    <section id="jsFunctions">
+      <h2>Control the Box with JS Functions</h2>
+      <button id="moveRightBtn">Move Right</button>
+      <button id="moveLeftBtn">Move Left</button>
+      <div id="box" class="box"></div>
+    </section>
+
+    <!-- Part 3: Trigger Animations with JS -->
+    <section id="jsTriggeredAnimations">
+      <h2>Trigger Animation Dynamically</h2>
+      <button id="spinBtn">Spin the Box!</button>
+    </section>
+  </main>
+  <!-- ===== Part 4: Animations ===== -->
+<section id="bonusAnimations">
+  <h2> Animation</h2>
+
+  <!-- Card Flip -->
+  <div class="card-container">
+    <div class="card">
+      <div class="front">Front</div>
+      <div class="back">Back</div>
+    </div>
+  </div>
+
+  <!-- Modal Popup -->
+  <button id="openModalBtn">Open Modal</button>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtn" class="close">&times;</span>
+      <p>This is a popup modal!</p>
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
